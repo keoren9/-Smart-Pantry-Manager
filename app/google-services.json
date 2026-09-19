@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "285911980354",
+    "firebase_url": "https://smart-pantry-44ab8-default-rtdb.firebaseio.com",
+    "project_id": "smart-pantry-44ab8",
+    "storage_bucket": "smart-pantry-44ab8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285911980354:android:6ae15a9b81e7828d3f90db",
+        "android_client_info": {
+          "package_name": "com.example.smartpantrymanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA-0STxm2IimXYb_fWzFoxYKhQakBZczY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
