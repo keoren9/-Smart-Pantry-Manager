@@ -19,5 +19,19 @@ public class Page1 extends AppCompatActivity {
                 startActivity(new Intent(Page1.this, MainActivity.class));
             }
         });
+
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Page1.this, Edit_page.class));
+            }
+        });
+
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Page1.this, Recipe_page.class));
+            }
+        });
     }
 }

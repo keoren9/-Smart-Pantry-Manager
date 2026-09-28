@@ -11,8 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartPantryManager">
+
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Edit_page"
+            android:exported="false" />
+
+        <activity
+            android:name=".Recipe_page"
             android:exported="false" />
 
         <activity
@@ -23,6 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
